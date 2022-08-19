@@ -1,9 +1,9 @@
 Dada a estrutura a seguir:
 
 typedef struct {
-intmatricula;
+int matricula;
 char nome[30];
-floatsalario;
+float salario;
 } Funcionario;
 
 Implemente um programa completo em C que contenha um menu com as seguintes opções:
