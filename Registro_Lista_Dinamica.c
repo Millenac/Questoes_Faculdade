@@ -26,7 +26,8 @@ Para isso, implemente uma lista dinâmica tipo Funcionario de tamanho MAX e crie
 
 -------------------------------------------------------------------------------------------------------------
   
-  #include <stdio.h>
+  
+#include <stdio.h>
 #include <stdlib.h>
 
 typedef struct No
