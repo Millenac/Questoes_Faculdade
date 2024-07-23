@@ -1,33 +1,3 @@
-Dada a estrutura a seguir:
-
-typedef struct {
-int matricula;
-char nome[30];
-float salario;
-} Funcionario;
-
-Implemente um programa completo em C que contenha um menu com as seguintes opções:
-1.Inserir Registro
-2.Alterar Registro
-3.Apagar Registro
-4.Exibir Registro
-5.Exibir Listagem
-0.Sair
-
-Para isso, implemente uma lista estáticado tipo Funcionario de tamanho MAX e crie funções para o seguinte:
-
-§ Inicializar a lista: um registro será considerado vazio caso a matrícula seja igual a zero;
-§ Tamanho da lista: retorna um inteiro com a quantidade de posições não vazias da lista;
-§ Pesquisar registro: retorna o índice da lista contendo registro conforme matricula informada;
-§ Inserir registro:um novo registro deve ser armazenado em uma posição vazia da lista, caso disponível;
-§ Alterar registro: realiza a alteração dos dados de um registro de uma posição da lista informada, caso exista;
-§ Apagar registro: modifica um registro de uma posição da lista informada para que se torne vazio, caso exista;
-§ Listar registros: exibe em tela uma listagem dos registros armazenados na lista.
-
-
--------------------------------------------------------------------------------------------------------------
-
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <windows.h>
