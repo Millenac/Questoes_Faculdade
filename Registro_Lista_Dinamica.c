@@ -1,9 +1,3 @@
-typedef struct {
-int matricula;
-char nome[30];
-float salario;
-} Funcionario;
-  
 #include <stdio.h>
 #include <stdlib.h>
 
