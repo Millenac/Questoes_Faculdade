@@ -6,14 +6,6 @@ char nome[30];
 float salario;
 } Funcionario;
 
-Implemente um programa completo em C que contenha um menu com as seguintes opções:
-1.Inserir Registro
-2.Alterar Registro
-3.Apagar Registro
-4.Exibir Registro
-5.Exibir Listagem
-0.Sair
-
 Para isso, implemente uma lista dinâmica tipo Funcionario de tamanho MAX e crie funções para o seguinte:
 
 § Inicializar a lista: um registro será considerado vazio caso a matrícula seja igual a zero;
