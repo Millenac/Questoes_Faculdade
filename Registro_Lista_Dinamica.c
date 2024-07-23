@@ -1,5 +1,3 @@
-Dada a estrutura a seguir:
-
 typedef struct {
 int matricula;
 char nome[30];
